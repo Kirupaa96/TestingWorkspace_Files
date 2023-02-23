@@ -1,3 +1,6 @@
-GitRepositoriesView.GitDirectories=
-GitRepositoriesView.GitDirectories.relative=
+GitRepositoriesView.GitDirectories=/Users/kirupaashankar/Testing Workspace/.git\:
+GitRepositoriesView.GitDirectories.relative=.git\:
+RepositorySearchDialogDeepSearch=false
+RepositorySearchDialogSearchPath=/Users/kirupaashankar/Testing Workspace
+RepositorySearchDialogSkipHidden=true
 eclipse.preferences.version=1
