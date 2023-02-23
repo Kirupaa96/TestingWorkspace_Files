@@ -1,0 +1,9 @@
+/Users/kirupaashankar/eclipse-workspace/inetbankingV1/src/test/java/com/inetbanking/pageObjects/loginPage.java
+/Users/kirupaashankar/eclipse-workspace/inetbankingV1/src/test/java/com/inetbanking/pageObjects/addCustomer.java
+/Users/kirupaashankar/eclipse-workspace/inetbankingV1/src/test/java/com/inetbanking/testCases/Tc_loginTest_001.java
+/Users/kirupaashankar/eclipse-workspace/inetbankingV1/src/test/java/com/inetbanking/testCases/BaseClass.java
+/Users/kirupaashankar/eclipse-workspace/inetbankingV1/src/test/java/com/inetbanking/utilities/readConfig.java
+/Users/kirupaashankar/eclipse-workspace/inetbankingV1/src/test/java/com/inetbanking/utilities/listeners.java
+/Users/kirupaashankar/eclipse-workspace/inetbankingV1/src/test/java/com/inetbanking/utilities/XLUtil.java
+/Users/kirupaashankar/eclipse-workspace/inetbankingV1/src/test/java/com/inetbanking/testCases/Tc_DataDriven.java
+/Users/kirupaashankar/eclipse-workspace/inetbankingV1/src/test/java/com/inetbanking/testCases/Tc_addCustomer.java
