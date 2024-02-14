@@ -1,5 +1,6 @@
 package Step_defenitions;
 
+import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
@@ -38,7 +39,10 @@ public void registerpage()
 @When("^I enter below details$")
 public void details(DataTable data) // syntax
 {
+	    
+	    // As a Single Map 
 	    Map<String, String> datamap = data.asMap(String.class, String.class); //converting datatable into maps(Hashmap)
+	    System.out.println(datamap);
 	    
 	    driver.findElement(By.id("input-firstname")).sendKeys(datamap.get("FirstName"));
 	    driver.findElement(By.id("input-lastname")).sendKeys(datamap.get("LastName"));
@@ -46,6 +50,30 @@ public void details(DataTable data) // syntax
 		driver.findElement(By.id("input-telephone")).sendKeys(datamap.get("Telephone"));
 		driver.findElement(By.id("input-password")).sendKeys(datamap.get("Password"));
 		driver.findElement(By.id("input-confirm")).sendKeys(datamap.get("Password"));
+		
+	
+	   // As Array list 
+	
+	   List<List<String>> datalist = data.asLists(String.class);
+	
+	   System.out.println(datalist);
+	   System.out.println(datalist.get(0).get(1)); 
+	   
+	   driver.findElement(By.id("input-firstname")).sendKeys(datalist.get(0).get(1));
+	   driver.findElement(By.id("input-lastname")).sendKeys(datalist.get(1).get(1));
+	   driver.findElement(By.id("input-email")).sendKeys(datalist.get(2).get(1));
+	   driver.findElement(By.id("input-telephone")).sendKeys(datalist.get(3).get(1));
+	   driver.findElement(By.id("input-password")).sendKeys(datalist.get(4).get(1));
+	   driver.findElement(By.id("input-confirm")).sendKeys(datalist.get(5).get(1));
+	 
+	 
+	   // As List of Maps, Use Only if you have multiple data for a single column.(ex:If u have many firstname or lastname)
+	   /*
+	   List<Map<String,String>> userList = data.asMaps(String.class,String.class);
+	   
+	   System.out.println(userList);
+	   */
+		
 }
 	
 @And("^I select privacy policy option$")
