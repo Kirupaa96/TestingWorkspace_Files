@@ -4,8 +4,12 @@
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
     <fullyQualifiedTypeName name="java.time.LocalTime"/>
-    <fullyQualifiedTypeName name="java.util.logging.Logger"/>
-    <fullyQualifiedTypeName name="java.util.logging.LogManager"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.devtools.DevTools"/>
     <fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
+    <fullyQualifiedTypeName name="java.util.logging.Logger"/>
+    <fullyQualifiedTypeName name="java.util.logging.LogManager"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="org.company.Company"/>
+    <fullyQualifiedTypeName name="org.client.Client"/>
+    <fullyQualifiedTypeName name="org.project.Project"/>
 </qualifiedTypeNameHistroy>

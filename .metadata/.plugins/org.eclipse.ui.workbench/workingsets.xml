@@ -57,6 +57,13 @@
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1707862153825_9" label="GreensTech" name="GreensTech">
 <item elementID="=Java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1707934638633_10" label="GreensAssignment" name="GreensAssignment">
+<item elementID="=EmployeeDetails" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=LanguageDetails" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=EmployeeInformation" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=PhoneDetails" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=CollegeInformation" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1677179243366_2" label="Window Working Set" name="Aggregate for window 1677179243365"/>
 <mruList name="Java"/>
 <mruList name="RestAssured"/>
